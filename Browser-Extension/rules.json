@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "priority": 1,
+    "action": {
+      "type": "redirect",
+      "redirect": { "url": "https://www.google.com/search?q=safe+search+enabled" }
+    },
+    "condition": {
+      "urlFilter": "badword|illegal|hack|dark web",
+      "resourceTypes": ["main_frame"]
+    }
+  }
+]
